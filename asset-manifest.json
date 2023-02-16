@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Murlykin-goit-react-hw-02-feedback/static/css/main.f30c9ce4.css",
-    "main.js": "/Murlykin-goit-react-hw-02-feedback/static/js/main.55d41db0.js",
+    "main.css": "/Murlykin-goit-react-hw-02-feedback/static/css/main.99880242.css",
+    "main.js": "/Murlykin-goit-react-hw-02-feedback/static/js/main.72c1c793.js",
+    "static/media/no-roads.webp": "/Murlykin-goit-react-hw-02-feedback/static/media/no-roads.1e21863c7d8612004050.webp",
     "index.html": "/Murlykin-goit-react-hw-02-feedback/index.html",
-    "main.f30c9ce4.css.map": "/Murlykin-goit-react-hw-02-feedback/static/css/main.f30c9ce4.css.map",
-    "main.55d41db0.js.map": "/Murlykin-goit-react-hw-02-feedback/static/js/main.55d41db0.js.map"
+    "main.99880242.css.map": "/Murlykin-goit-react-hw-02-feedback/static/css/main.99880242.css.map",
+    "main.72c1c793.js.map": "/Murlykin-goit-react-hw-02-feedback/static/js/main.72c1c793.js.map"
   },
   "entrypoints": [
-    "static/css/main.f30c9ce4.css",
-    "static/js/main.55d41db0.js"
+    "static/css/main.99880242.css",
+    "static/js/main.72c1c793.js"
   ]
 }
