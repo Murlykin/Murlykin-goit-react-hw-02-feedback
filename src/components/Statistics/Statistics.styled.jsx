@@ -23,5 +23,6 @@ export const СontainerStatistic = styled.div`
   svg {
     margin-right: 8px;
     vertical-align: middle;
+    svg { filter: sepia() saturate(1000%) hue-rotate(0deg) }
   }
 `;
