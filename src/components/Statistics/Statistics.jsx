@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types';
-import {Statistic, СontainerStatistic } from 'components/Statistics/Statistics.styled'
+import { Statistic, СontainerStatistic } from 'components/Statistics/Statistics.styled';
+import {HiUserPlus, HiUser, HiUserMinus, HiUserGroup, HiShieldCheck } from "react-icons/hi2";
 
 const Statistics = ({good, neutral, bad, total, positivePercentage}) => (
     <СontainerStatistic>
-        <Statistic> Good: {good}</Statistic>
-        <Statistic> Neutral: {neutral} </Statistic>
-        <Statistic> Bad: {bad}</Statistic>
-        <Statistic> Total: {total} </Statistic>
-        <Statistic> Positive feedback: {positivePercentage} %</Statistic>
+        <Statistic> <HiUserPlus /> Good: {good}</Statistic>
+        <Statistic> <HiUser /> Neutral: {neutral} </Statistic>
+        <Statistic> <HiUserMinus /> Bad: {bad}</Statistic>
+        <Statistic> <HiUserGroup /> Total: {total} </Statistic>
+        <Statistic> <HiShieldCheck /> Positive feedback: {positivePercentage} %</Statistic>
     </СontainerStatistic>
 );
 
