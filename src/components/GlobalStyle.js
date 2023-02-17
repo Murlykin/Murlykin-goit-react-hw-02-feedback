@@ -1,5 +1,8 @@
-@import-normalize; /* bring in normalize.css styles */
+import { createGlobalStyle } from "styled-components";
+import 'modern-normalize';
+import images from 'images/no-roads.jpg';
 
+export const GlobalStyle = createGlobalStyle`
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,15 +11,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(224, 224, 224);
-  background-image: url(no-roads.webp);
+  background-image: url("${images}");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-color: gray;
-  width: 100vw;
-  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+`;

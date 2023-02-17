@@ -3,6 +3,7 @@ import Section from "components/Section/Section";
 import FeedbackOptions from 'components/FeedbackOptions/FeedbackOptions';
 import Statistics from 'components/Statistics/Statistics';
 import Notification from 'components/Notification/Notification';
+import {GlobalStyle} from 'components/GlobalStyle';
 
 class App extends Component {
   state = {
@@ -30,6 +31,7 @@ class App extends Component {
   
   render() {
     return (
+      
       <div
         style={{
           height: '100vh',
@@ -41,6 +43,7 @@ class App extends Component {
           color: '#010101'
         }}
       >
+        <GlobalStyle />
         <Section title="Please leave feedback" >  
           <FeedbackOptions
             options={Object.keys(this.state)}
